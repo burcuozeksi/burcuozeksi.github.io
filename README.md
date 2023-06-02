@@ -1,0 +1,2 @@
+# burcuozeksi.github.io
+shop
