@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  body{
+    background-color: rgb(231, 231, 231);
+  }
+
+  .first-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-group-item {
+    border: none;
+  }
+
+  .cl{
+    background-color: rgb(231, 231, 231);
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+.fontt{
+  font-size: 20px;
+}
+   .nav-item {
+    margin: 5px 25px;
+  }
+
+  .logo{
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+
+  .arama{ 
+    border: 2px solid black; 
+   
+   
+  }
+
+  
+  .navbar {
+    background-color: whitesmoke;
+  }
+
+  .lists{
+    background-color: whitesmoke;
+    
+  }
+  
+
+  .font{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    
+  }
+
+  .font :hover{
+    text-decoration: underline darkred;
+  }
+
+
+  .dec :hover{
+    text-decoration: none!important;
+  } 
+
+
+  /* nav end */
+
+ 
+ .center{
+    align-items: center;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+ }
+
+
+input{
+  margin-top: 8px;
+  border: 2px solid lightgoldenrodyellow;
+  border-radius: 10px;
+  height: 40px;
+  width: 85%;
+}
+
+ main {
+    padding-bottom: 100px; /* Footer'dan 100 piksel yükseklikte bir boşluk bırakıyor */
+  }
+label{
+  font-size: 20px;
+ margin-top: 10px;
+ font-family: 'Kalam', cursive;
+}
+
+.image{
+  
+ 
+
+ 
+  margin-top: 15%;
+  
+  
+}
+
+.shopping{
+  margin-top: 40%;
+}
+.form-check-label{
+  font-size: 15px;
+}
+
+
+
+
+/* pass eye */
+ .show-pass{
+  position: relative;
+  margin-top: 25px;
+
+ 
+}
+ .hide-pass{
+  display: none;
+  margin-top: 25px;
+
+}
+.pass-input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+
+}
+.pass-input-container span {
+  position: absolute;
+
+
+
+  
+}
+
+.show-passiki{
+  position: relative;
+  margin-top: 25px;
+ 
+}
+
+.hide-passiki{
+  display: none;
+  margin-top: 25px;
+  
+}
+
+
+
+
+ /* footer */
+ .wrapper {
+    min-height: 100vh;
+  }
+  footer li{
+    font-size: 20px;
+  }
+footer h3{
+  text-align: center;
+}
+footer li{
+  text-align: center;
+}
+footer{
+  background-color: rgb(201, 196, 196);
+}
+
+  
+
+  
+  

@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  body{
+    background-color: rgb(231, 231, 231);
+  }
+
+
+
+
+.first-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-group-item {
+    border: none;
+  }
+
+  .cl{
+    background-color: rgb(231, 231, 231);
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+.fontt{
+  font-size: 20px;
+}
+   .nav-item {
+    margin: 5px 25px;
+  }
+
+  .logo{
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+
+  .arama{ 
+    border: 2px solid black; 
+   
+   
+  }
+
+  
+  .navbar {
+    background-color: whitesmoke;
+  }
+
+  .lists{
+    background-color: whitesmoke;
+    
+  }
+  
+
+  .font{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    
+  }
+
+  .font :hover{
+    text-decoration: underline darkred;
+  }
+
+
+  .dec :hover{
+    text-decoration: none!important;
+  } 
+ 
+
+
+  /* nav end */
+
+/* main */
+
+.baslik{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Kalam', cursive;
+}
+input{
+    margin-top: 8px;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 5px;
+    height: 50px;
+    width: 40%;
+  }
+  
+   main {
+      padding-bottom: 100px; /* Footer'dan 100 piksel yükseklikte bir boşluk bırakıyor */
+    }
+  .g-label{
+    font-size: 25px;
+   margin-top: 10px;
+   font-family: 'Kalam', cursive;
+   
+  
+  }
+
+ 
+  .forms{
+    margin: auto;
+    
+    text-align: center;
+   
+  }
+
+
+ .check{
+    /* border: 2px solid black; */
+    width: 25%;
+    margin: auto;
+    margin-top: 15px;
+ }
+
+ .forget{
+    text-decoration: underline;
+    color: blue;
+
+ }
+
+ .form-check-label{
+    margin-right: 45px;
+ }
+
+
+.girisyap{
+    background-color: rgb(252, 135, 135);
+    color: black;
+    border-radius: 16px;
+    width: 15%;
+    height: 45px;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+}
+/* password eye */
+
+
+
+.show-pass{
+  position: relative;
+  margin-top: 25px;
+ 
+}
+.hide-pass{
+  display: none;
+  margin-top: 25px;
+
+}
+.pass-input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  /* margin-bottom: 20px;
+  border-radius: 0;
+  background-color: #fff;
+  height: 50px; */
+
+}
+.pass-input-container span {
+  position: absolute;
+
+
+
+  
+}
+
+@media screen and (max-width:950px){
+ .girisyap{
+  width: 25%;
+  height: 65px;
+ }
+  
+}
+
+@media screen and (max-width:450px){
+  .girisyap{
+   width: 35%;
+   height: 70px;
+  }
+   
+ }
+
+
+
+
+
+
+
+
+
+
+   /* footer */
+ .wrapper {
+    min-height: 100vh;
+  }
+  footer li{
+    font-size: 20px;
+  }
+footer h3{
+  text-align: center;
+}
+footer li{
+  text-align: center;
+}
+footer{
+  background-color: rgb(201, 196, 196);
+}
